@@ -9,8 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\gestionEmpleados.BSS\gestionEmpleados.BSS.csproj" />
-    <ProjectReference Include="..\gestionEmpleados.MODELOS\gestionEmpleados.MODELOS.csproj" />
+    <ProjectReference Include="..\SistemasVentas.BSS\gestionEmpleados.BSS.csproj" />
+    <ProjectReference Include="..\SistemasVentas.DAL\gesitonEmpleados.DAL.csproj" />
+    <ProjectReference Include="..\SistemasVentas.Modelos\gestionEmpleados.Modelos.csproj" />
   </ItemGroup>
 
 </Project>

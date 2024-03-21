@@ -1,4 +1,7 @@
-namespace gestionEmpleados.VISTA
+using SistemasVentas.BSS;
+using SistemasVentas.Modelos;
+
+namespace SistemasVentas.VISTA
 {
     internal static class Program
     {
@@ -11,7 +14,7 @@ namespace gestionEmpleados.VISTA
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new PersonaVistas.PersonaListarVista());
         }
     }
 }

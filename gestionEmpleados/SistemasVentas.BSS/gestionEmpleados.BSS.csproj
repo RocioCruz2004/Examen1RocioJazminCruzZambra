@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\gestionEmpleados.BSS\gestionEmpleados.BSS.csproj" />
+    <ProjectReference Include="..\SistemasVentas.DAL\gesitonEmpleados.DAL.csproj" />
+    <ProjectReference Include="..\SistemasVentas.Modelos\gestionEmpleados.Modelos.csproj" />
   </ItemGroup>
 
 </Project>

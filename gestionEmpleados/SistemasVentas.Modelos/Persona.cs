@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gestionEmpleados.MODELOS
+namespace SistemasVentas.Modelos
 {
-    public class persona
+    public class Persona
     {
-        public int idPersona { get; set; }   
+        public int idPersona { get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
         public string estado { get; set; }

@@ -1,4 +1,4 @@
-﻿namespace gestionEmpleados.DAL
+﻿namespace SistemasVentas.Modelos
 {
     public class Class1
     {

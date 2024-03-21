@@ -1,4 +1,4 @@
-﻿namespace gestionEmpleados.BSS
+﻿namespace SistemasVentas.DAL
 {
     public class Class1
     {
